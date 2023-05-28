@@ -1,6 +1,6 @@
 # This Dockerfile builds API only
 
-FROM python:3.10
+FROM python:3.9
 WORKDIR /app
 
 COPY ./my_lib ./my_lib
