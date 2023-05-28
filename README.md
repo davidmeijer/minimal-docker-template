@@ -17,6 +17,6 @@ You can now make changes to the source code and the server and client will autom
 3. Visit ```http://localhost:3000/``` to view the app
 
 ## Deploy
-1. Ask IT to expose a por: in this example we use port 1234, and give them a name for the service (e.g. ```<my_app>.bioinformatics.nl```)
+1. Ask IT to expose a port: in this example we use port 1234, and give them a name for the service (e.g. ```<my_app>.bioinformatics.nl```)
 2. Run ```docker-compose -f docker-compose.yml up -d --build```
 3. Visit ```http://<my_app>.bioinformatics.nl/``` to view the app
